@@ -4,16 +4,16 @@
 # =============================================================================
 # Core Dependencies (all notebooks)
 # =============================================================================
-python-dotenv>=1.0.0
-openai>=1.0.0
-chromadb>=0.4.0
+python-dotenv
+openai
+chromadb
 
 # =============================================================================
 # Docling (docling_document_parsing.ipynb)
 # =============================================================================
 docling==2.55.1
-docling-core[chunking]>=2.0.0
-langchain-docling>=0.1.0
+docling-core[chunking]
+langchain-docling
 
 # Docling optional extras (uncomment as needed):
 # pip install 'docling[easyocr]'    # For EasyOCR support
@@ -27,7 +27,7 @@ langchain-docling>=0.1.0
 # =============================================================================
 unstructured==0.18.15
 langchain-unstructured
-
+unstructured-inference
 # Unstructured extras for file format support:
 # Install with: pip install "unstructured[pdf,docx,xlsx,pptx,html,md,image,email]"
 # Or install all: pip install "unstructured[all-docs]"
@@ -35,47 +35,45 @@ langchain-unstructured
 # =============================================================================
 # LlamaParse (llamaparse_document_parsing_part1/2.ipynb)
 # =============================================================================
-llama-parse==0.6.77
-llama-index>=0.10.0
-llama-cloud-services>=0.1.0
-llama-index-vector-stores-chroma>=0.1.0
-llama-index-embeddings-openai>=0.1.0
-llama-index-llms-openai>=0.1.0
-nest-asyncio>=1.5.0
+llama-parse
+llama-index
+llama-cloud-services
+llama-index-vector-stores-chroma
+llama-index-embeddings-openai
+llama-index-llms-openai
+nest-asyncio
 
 # =============================================================================
 # LangChain (shared across notebooks)
 # =============================================================================
-langchain>=0.2.0
-langchain-community>=0.2.0
-langchain-chroma>=0.1.0
-langchain-openai>=0.1.0
-langchain-openai>=0.1.0
-langchain-chroma
+langchain
+langchain-community
+langchain-openai
 
 # =============================================================================
 # ML/NLP Libraries
 # =============================================================================
-transformers>=4.30.0
-sentence-transformers>=2.2.0
+transformers
+sentence-transformers
 
 # =============================================================================
 # Data Processing
 # =============================================================================
-pandas>=2.0.0
-openpyxl>=3.1.0
-
+pandas
+openpyxl
+pdfminer.six
+pi-heif
 # =============================================================================
 # Document Format Support (for sample file creation)
 # =============================================================================
-python-docx>=1.0.0
-python-pptx>=0.6.21
-Pillow>=10.0.0
+python-docx
+python-pptx
+Pillow
 
 # =============================================================================
 # Vectorize.io (vectorize_document_parsing_part1/2.ipynb)
 # =============================================================================
-vectorize-client>=0.1.0
+vectorize-client
 
 # Optional: Pinecone for Vectorize pipeline integration
 # pinecone-client>=3.0.0
