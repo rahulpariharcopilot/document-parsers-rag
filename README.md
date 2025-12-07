@@ -19,10 +19,10 @@ This project provides hands-on tutorials for parsing documents using:
 document-parsers-rag/
 ├── docling_document_parsing.ipynb          # Docling tutorial
 ├── unstructured_document_parsing.ipynb     # Unstructured tutorial
-├── llamaparse_document_parsing_part1.ipynb # LlamaParse basics
-├── llamaparse_document_parsing_part2.ipynb # LlamaParse advanced + RAG
-├── vectorize_document_parsing_part1.ipynb  # Vectorize.io basics
-├── vectorize_document_parsing_part2.ipynb  # Vectorize.io pipelines + RAG
+├── llamaparse_document_parsing.ipynb # LlamaParse basics
+├── llamaparse_document_parsing.ipynb # LlamaParse advanced + RAG
+├── vectorize_document_parsing.ipynb  # Vectorize.io basics
+├── vectorize_document_parsing.ipynb  # Vectorize.io pipelines + RAG
 ├── sample_documents/                       # Test documents (PDF, DOCX, etc.)
 ├── requirements.txt                        # Python dependencies
 └── .env.example                            # Environment variables template
